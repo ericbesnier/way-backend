@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "target": "ESNEXT",
+    },
+    "lib": [
+            "es2016"
+    ],
+    "include": [
+        "./src/typings/**/*"
+    ],
+}
